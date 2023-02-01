@@ -5,5 +5,5 @@ import (
 )
 
 func main()  {
-	fmt.Print("asd")
+	fmt.Print("new branch gochta")
 }
