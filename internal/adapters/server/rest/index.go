@@ -17,6 +17,8 @@ func GetHandler(ucs *usecases.St) http.Handler {
 	s := &St{ucs: ucs}
 	// user
 	r.POST("/user", s.hUserCreate)
+
+	return r
 }
 
 //func (o *St) getRequestContext(c *gin.Context) context.Context {

@@ -7,8 +7,6 @@ import (
 )
 
 func Execute() {
-	var err error
-
 	app := struct {
 		core       *core.St
 		ucs        *usecases.St
@@ -22,4 +20,5 @@ func Execute() {
 	}{}
 
 	confLoad()
+
 }
