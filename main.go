@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "github.com/Akmyrzza/authorization-service/cmd"
 
-func main()  {
-	fmt.Print("new branch gochta")
+func main() {
+	cmd.Execute()
 }
